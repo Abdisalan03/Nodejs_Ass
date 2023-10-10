@@ -26,7 +26,7 @@ function saveTodoList(todoList) {
   });
 }
 
-// Function to add a new task to the todo list
+// Function  kudaraaya  mid cusub  todo list
 function addTask(task) {
   const todoList = readTodoList();
 
@@ -41,7 +41,7 @@ function addTask(task) {
   console.log('New task added successfully!');
 }
 
-// Function to update a task in the todo list
+// Function update garaynaaya xogtii kuu kaydsanayd todo list 
 function updateTask(id, updatedTask) {
   const todoList = readTodoList();
 
@@ -56,7 +56,7 @@ function updateTask(id, updatedTask) {
   }
 }
 
-// Function to delete a task from the todo list
+// Function xirtiraaya xogtii ku jirtay todo list
 function deleteTask(id) {
   const todoList = readTodoList();
 
@@ -71,7 +71,7 @@ function deleteTask(id) {
   }
 }
 
-// Function to display the todo list
+// Function soo ban dhigaaya xogtii ku jirtay todo list
 function displayTodoList() {
   const todoList = readTodoList();
 
